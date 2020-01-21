@@ -1,0 +1,36 @@
+/*Element*/
+li{
+
+}
+/*Class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+
+/*star - selects everything on the page*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector - takes two or more tag names + chain them together*/
+li a{
+	color: red;
+}
+
+/*Adjacent Selector - selects objects on the same level */
+h4  + ul {
+	border:4px solid red;
+}
+/*Attribute Selector - select all of something*/
+a[href="http://www.google.com"]{
+	background: blue;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+	background: purple;
+}

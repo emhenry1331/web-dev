@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- metadata goes in the head -->
+	<title>My First Page</title>
+</head>
+<body>
+<!-- content goes in the body -->
+	<h1>This is my first tag (kind of). </h1>
+	<h2>Here is H2</h2>
+	<h6>And an h6</h6>
+
+	<p>Lorem Ipsum is simply <strong>dummy</strong> text of the printing and typesetting industry. <em>Lorem</em> Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<!-- the <b> and the <i> tag is becoming depracated -->
+	<!-- html 5 is all about structure instead of using tags for visuals -->
+
+	<!-- Ordered Lists -->
+	<h4>My lists</h4>
+	<ol>
+		<li>Red</li>
+		<li>Orange</li>
+		<li>Yellow
+			<ul>
+				<li>Sunflower</li>
+				<li>Banana</li>
+					<ol>
+						<li>frozen</li>
+						<li>fresh</li>
+					</ol>
+			</ul>
+
+		</li>
+	</ol>
+	<!-- Unordered Lists -->
+	<ul>
+		<li><strong>Red</strong></li>
+		<li>Orange</li>
+		<li>Yellow</li>
+	</ul>
+
+	<!-- div and span tag -->
+		<!-- Divs <div></div> -->
+			<!--  used to group things together -->
+			<!-- block level generic container -->
+			<!-- will create a paragraph break after the div ends -->
+		<!-- Span <span></span> -->
+			<!-- used as a container withing tags -->
+			<!-- an inline container -->
+		<div>
+			<h1>Random</h1>
+			<p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit, </span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+	<!-- Attributes -->
+		<!-- adding additional information to tags -->
+		<!-- Images -->
+			<!-- Self closing tag -->
+			<!-- src is the source of the image -->
+			<!-- onboard link -->
+			<img src = "images/corgi.jpg">
+			<!-- internet link -->
+			<img src = "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1470/828/274292f1-corgi.jpg?ve=1&tl=1">
+		<!-- Links -->
+			<!-- uses the <a></a> tag -->
+			<!-- an inline element -->
+			<!-- outside link -->
+				<a href = "https://www.google.com">Click me to go to Google!</a>
+			<!-- Relative link -->
+				<a href = "Assignment1.html">Go to Assignment 1</a>
+				<a href = "Assignment2.html">Go to Assignment 2</a>
+
+	<!-- Tables -->
+		<!-- Old style table -->
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Rusty</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Wyatt</td>
+				<td>13</td>
+			</tr>
+		</table> 
+		<!-- HTML 5 Table -->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Breed</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Rusty</td>
+					<td>2</td>
+					<td>Mutt</td>
+				</tr>
+				<tr>
+					<td>Wyatt</td>
+					<td>13</td>
+					<td>Golden</td>
+				</tr>
+			</tbody>
+
+		</table> 
+	<!-- Forms
+		<form></form>
+			action: the URL to send form data to
+			method: the type of HTTP request
+				"post" request is send data
+				"get" request is revieving data
+			need back end JS to do stuff
+		<input>
+			goes inside forms
+			type = "text", "date", "color", "file"...  -->
+		<h1>Sign In</h1>
+		<form action="/sign-in-url" method="post">
+			<input type="text">
+			<input type="password">
+			<button>Login</button>
+		</form>
+		<!-- Labels
+			<label></label> -->
+			<a href="formDemo.html">For more about Labels, see formDemo.html</a>
+		<!-- Simple Validations
+			The "required" attribute validates that an input is not empty
+			There are also type validations. Try changing "type" from "text" to "email"
+			Required is a boolean value; it being present means that it must == true -->
+	<!-- Radio Button -->
+	<!-- Select tag -->
+	<!-- textarea tag -->
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
